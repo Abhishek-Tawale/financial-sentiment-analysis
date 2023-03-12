@@ -1,3 +1,7 @@
 pandas
 sklearn
 streamlit 
+numpy
+gunicorn
+nltk
+scikit-learn
