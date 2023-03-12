@@ -4,12 +4,16 @@ import streamlit as st
 import pickle
 import nltk
 from nltk.corpus import stopwords
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 from nltk.tokenize import word_tokenize
 from bs4 import BeautifulSoup
 from nltk.stem import WordNetLemmatizer
 import re
 import string
 import gensim.downloader as api
+
 
 # Preprocess
 lemmatizer = WordNetLemmatizer()
